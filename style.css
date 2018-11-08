@@ -10,6 +10,11 @@ div, p{
            text-align: center;
         }
 
+.fill::first-letter {
+         font-size: 2em;
+         color:	 #00ff55;
+        }
+
 nav ul li{
      text-decoration:none;
      display:inline-block;
