@@ -1,0 +1,98 @@
+div, p{
+      font-size:18px;
+    }
+
+
+    .fill{
+          font-weight: bold;
+          font-family: cursive;
+           text-shadow:#FC0 1px 0 10px;
+           text-align: center;
+        }
+
+nav ul li{
+     text-decoration:none;
+     display:inline-block;
+     list-style:none;
+     text-align: center;
+     /* font-size:87.5%; */
+     background-color:#99ffbb;
+     width:18%;
+     font-size:140.0%;
+     padding:.32em;
+     border-radius: 10%;
+
+   }
+   nav li a{
+     text-decoration:none;
+     padding:1px;
+
+     }
+
+     nav a:hover, nav li.active a{
+       background-color:#ccffcc;
+       color:#00802b;
+     }
+     li a.active1{
+       background-color:#00802b;
+       color: white;
+     }
+
+.column1,.column2 {
+ margin: 1%;
+ padding-left:1%;
+ float: left;
+ width: 25%;
+ border: bold 1em;
+ border: solid;
+ }
+
+ body{
+      background-image:url(images/tree1.jpg);
+      font-size:87.5%;
+
+    }
+
+  .container{
+             background-color:#ccffdd;
+             width:80%;
+             margin: 0 auto;
+             overflow:auto;
+             clear:both;
+            }
+
+          img{
+              max-width:100%;
+            }
+
+            h1{
+              text-align: center;
+            }
+       .bold1{
+        font-weight: bold;
+        font-family:cursive;
+        }
+            .content1{
+              margin: 1%;
+              padding-left:1%;
+              float: left;
+              width: 18%;
+              border: bold 1em;
+              border: solid;
+            }
+
+            .content2{
+              margin: 1%;
+              padding-left:1%;
+              float: left;
+              width: 18%;
+              border: bold 1em;
+              border: solid;
+              }
+
+#footer
+ {
+ border-top: 1px solid green;
+ clear: both;
+  text-align: center;
+ }
