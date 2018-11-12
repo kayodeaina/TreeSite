@@ -1,0 +1,74 @@
+<!--Author: Kayode Aina-->
+<!DOCTYPE html>
+
+<html lang="zxx">
+
+<head>
+  <title>HTML Form Exercise</title>
+     <link href="style.css" rel="stylesheet" type="text/css">
+     <meta charset="utf-8">
+</head>
+
+  <body>
+      <div class="container">
+          <div class="banner"><img src="images/banner1.jpg" alt="banner of the site"/>
+      </div>
+
+        <nav>
+              <ul>
+                <li><a class="active1" href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+        </nav>
+   <!-- <h1>Tree Surgeon</h1> -->
+     <form id="myForm" >
+          <main class="main">
+            <h1> Please enter your details</h1>
+              <form action="" method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">Enter Your user name: </label>
+                    <input type="text"name="name"id="name" required>
+                </div>
+
+                <div class="form-example">
+                  <label for="pass">Enter your Password:</label>
+                   <input type="email" name="email" id="email" required>
+                </div>
+
+
+                <p>
+                <label>Message</label>
+                <p class="full">
+                  <textarea id="message" name="message" rows="10" cols="50">Enter your message here: </textarea>
+                </p>
+              </p>
+              <p class="full">
+                <!-- <input type="submit" value="Submit"> -->
+                <button>Submit</button>
+               <!-- <input type="Submit"> -->
+
+              </p>
+              <p class="full">
+                 <input type="button" onclick="myFunction()" value="Reset">
+               <!-- <button>Reset</button> -->
+              </p>
+                <!-- <div class="form-example">
+                  <input type="submit" value="Subscribe!">
+                </div> -->
+              </form>
+            </form>
+
+            <script>
+               function myFunction() {
+                document.getElementById("myForm").reset();
+                         }
+             </script>
+       </main>
+      <p id="footer"> &copy;Kayode Aina: 2018
+      </p>
+      </div>
+</body>
+</html>

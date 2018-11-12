@@ -12,7 +12,7 @@ div, p{
 
 .fill::first-letter {
          font-size: 2em;
-         color:	 #00ff55;
+         color:#00802b;
         }
 
 nav ul li{
@@ -43,14 +43,14 @@ nav ul li{
        color: white;
      }
 
-.column1,.column2 {
- margin: 1%;
- padding-left:1%;
- float: left;
- width: 25%;
- border: bold 1em;
- border: solid;
- }
+    .column1,.column2 {
+     margin: 1%;
+     padding-left:1%;
+     float: left;
+     width: 25%;
+     border: bold 1em;
+     border: solid;
+     }
 
  body{
       background-image:url(images/tree1.jpg);
@@ -77,27 +77,27 @@ nav ul li{
         font-weight: bold;
         font-family:cursive;
         }
-            .content1{
-              margin: 1%;
-              padding-left:1%;
-              float: left;
-              width: 18%;
-              border: bold 1em;
-              border: solid;
+  .content1{
+          margin: 1%;
+          padding-left:1%;
+          float: left;
+          width: 18%;
+          border: bold 1em;
+          border: solid;
             }
 
-            .content2{
-              margin: 1%;
-              padding-left:1%;
-              float: left;
-              width: 18%;
-              border: bold 1em;
-              border: solid;
-              }
+    .content2{
+          margin: 1%;
+          padding-left:1%;
+          float: left;
+          width: 18%;
+          border: bold 1em;
+          border: solid;
+           }
 
 #footer
- {
- border-top: 1px solid green;
- clear: both;
-  text-align: center;
- }
+      {
+       border-top: 1px solid green;
+       clear: both;
+        text-align: center;
+    }
